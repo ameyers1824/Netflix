@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "startsass": "sass --watch assets/style.scss assets/style.css",
     "start": "BROWSER=chrome node assets/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "sass": "^1.87.0"
+  }
 }
