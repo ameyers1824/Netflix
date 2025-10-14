@@ -2,10 +2,40 @@
 <html>
     <head>
         <script src="assets/index.js"></script>
+        <script src="https://kit.fontawesome.com/7fa5981178.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Instrument+Serif:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Changa:wght@200..800&family=Instrument+Serif:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-        <div class="hi">hey</div>
+    <body class="background">
+        <div id="header">
+            <div w3-include-html="src/header.html"></div> 
+        </div>
+        <div id="heroSection">
+            <div w3-include-html="src/hero.html"></div> 
+        </div>
+        <div id="aboutSection" >
+            <div w3-include-html="src/about.html"></div>
+        </div>
+        <div id="languagesSection" >
+            <div w3-include-html="src/languages.html"></div>
+        </div>
+        <div id="projectsSection" >
+            <div w3-include-html="src/projects.html"></div>
+        </div>
+        <div id="contactMeSection" >
+            <div w3-include-html="src/contact.html"></div>
+        </div>
+        <div id="footer">
+            <div w3-include-html="src/footer.html"></div> 
+        </div>
+        <script>
+            includeHTML();
+        </script>
     </body>
 </html>
 

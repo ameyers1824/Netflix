@@ -1,3 +1,4162 @@
-.hi {
-    color: blueviolet;
+$blue: #99D3BB ;
+$orange: #FA753C;
+$yellow: #F8C93F;
+$background: #F8F7F3;
+$textColor: #597370;
+
+/* Styles for screens greater than 1575px */
+@media screen and (min-width: 1575px) {
+
+    .blue {
+        background-color: $blue;
+    }
+
+    .yellow {
+        background-color: $yellow;
+    }
+
+    .orange {
+        background-color: $orange;
+    }
+
+    .logoStylesA {
+        color: #F8C93F;
+        font-family: "Bonheur Royale";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .background {
+        width: 100%;
+        height: 100%;
+        background-color: $background;
+    }
+
+    .landingPage {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        background: $background;
+        min-height: 75svh;
+        display: flex;
+        padding-top: 2%;
+    }
+
+    .landingPageTitle {
+        width: 667px;
+        height: 239px;
+        flex-shrink: 0;
+        position: relative;
+        //margin: auto;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    .portfolioOutline {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        font-family: "Macondo Swash Caps";
+        font-size: 186px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: transparent;
+        position: absolute;
+        top: .03em;
+        right: .06em;
+    }
+    
+    .portfolioHeading {
+        color: $blue;
+        font-family: "Macondo Swash Caps";
+        font-size: 186px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+    }
+
+    .portfolioSubtext {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+        padding-top: 5.5em;
+        padding-right: .2em;
+    }
+
+    .emailBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+    }
+
+    .email {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .phoneBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 1.5em;
+    }
+
+    .phone {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .landingPageSquares {
+        padding-left: 10%;
+        padding-top: 5%;
+        //padding-right: .2em;
+        display: inline-block;
+        
+
+        .redSquareOne {
+            width: 363px;
+            height: 407px;
+            transform: rotate(173.498deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwo {
+            width: 363px;
+            height: 407px;
+            transform: rotate(15.675deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-left: 3.5em;
+        }
+
+        .redSquareOneLining {
+            width: 363px;
+            height: 407px;
+            transform: rotate(-16.599deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwoLining {
+            width: 363px;
+            height: 407px;
+            transform: rotate(20.195deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-left: 5em;
+        }
+    }
+
+    #aboutSection {
+        //page-break-before: always;
+        min-height: 65svh;
+
+        .smallBlueCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 37%;
+            margin-left: 40%;
+            position: absolute;
+        }
+        .smallBlueCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 36.8%;
+            margin-left: 39.7%;
+            position: absolute;
+        }
+
+        .mediumBlueCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 24.5%;
+            margin-left: 84.5%;
+            position: absolute;
+        }
+
+        .mediumBlueCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 25%;
+            margin-left: 85%;
+            position: absolute;
+        }
+
+        .largeBlueCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 15%;
+            margin-left: 15%;
+            position: absolute;
+        }
+        
+        .largeBlueCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 14.5%;
+            margin-left: 16%;
+            position: absolute;
+        }
+
+        .smallOrangeCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 10%;
+            margin-left: 30%;
+            position: absolute;
+        }
+        .smallOrangeCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 10.2%;
+            margin-left: 30.2%;
+            position: absolute;
+        }
+
+        .largeOrangeCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 35.3%;
+            margin-left: 64.5%;
+            position: absolute;
+        }
+
+        .largeOrangeCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 35%;
+            margin-left: 65%;
+            position: absolute;
+        }
+
+        .smallYellowCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 30%;
+            margin-left: 25%;
+            position: absolute;
+        }
+        .smallYellowCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 30.2%;
+            margin-left: 25.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 5.5%;
+            margin-left: 60.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 5%;
+            margin-left: 60%;
+            position: absolute;
+        }
+
+        .aboutMeTitleText {
+            color: #2F382D;
+            text-align: center;
+            padding-top: 15%;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+        }
+
+        .aboutMeBodyText {
+            color: #2F382D;
+            text-align: center;
+            padding-left: 25%;
+            padding-right: 25%;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+        }
+    }
+
+    #languagesSection {
+        min-height: 40svh;
+        padding-top: 9%;
+
+        .languagesText {
+            color: #2F382D;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            padding-left: 10%;
+        }
+        
+        .languagesBoxesContainer {
+        //display: flex;
+            //flex-direction: row;
+            
+        }
+
+        .languagesBoxes {
+            //text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            //padding-right: 10%;
+            display: flex;
+            height: 27.5%;
+            gap: 5%;
+        }
+
+        .whiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //z-index: 1;
+        }
+
+        .justWhiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            position: relative;
+            margin-top: -14%;
+            z-index: 1;
+        }
+
+        .blueLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $blue;
+            box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+            //z-index: 0;
+        }
+
+        .orangeLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $orange;
+            box-shadow:  0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+            //z-index: 0;
+        }
+
+        .yellowLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $yellow;
+            box-shadow:  0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+            //z-index: 0;
+        }
+
+        .whiteLanguageBoxeLining {
+            background: transparent;
+            border: 1px solid black;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //
+        }
+
+        .languagesBoxesLining {
+            position: relative;
+            margin-top: -11%;
+            z-index: 2;
+        }
+
+        .languagesLining1 {
+            transform: rotate(-5.599deg);
+        }
+
+        .languagesLining2 {
+            transform: rotate(5.599deg);
+        }
+
+        .seeMoreText {
+            text-align: right;
+            padding-right: 10%;
+            padding-top: 3%;
+            font-family: Changa;
+            color: $textColor;
+            font-weight: 550;
+            font-size: 18px;
+        }
+
+    }
+
+    #projectsSection {
+        min-height: 80svh;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+        .projects {
+            position: relative;
+            width: 100%;
+            display: flex;
+            padding-bottom: 10%;
+        }
+
+        .projectBoxes {
+            background-color: white;
+            flex-shrink: 0;
+            aspect-ratio: 29 / 37;
+            border-radius: 17px;
+            //position: absolute;
+            width: 30%;
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .yellowBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .blueBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+        }
+
+        .yellowColoredBox {
+            background-color: rgba(248, 201,63, 0.5);
+        }
+
+        .blueColoredBox {
+            background-color: rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeColoredBox {
+            background-color: rgba(250, 117, 60, 0.5);
+        }
+
+        .projectColoredBoxes {
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 30%;
+        }
+
+        .projectColoredBoxesLining {
+            color: transparent;
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: -90%;
+            
+            border: 1px solid #000;
+        }
+
+        .rightRotate {
+            transform: rotate(-8.599deg);
+        }
+
+        .leftRotate {
+            transform: rotate(8.599deg);
+        }
+
+        .rightSideBox {
+            transform: translate(230%);
+        }
+
+        .rightSideText {
+            padding-left: 15%;
+        }
+
+        .leftSideText {
+            transform: translate(-65%);
+        }
+
+        .projectTextArea {
+            //background-color: white;
+            padding-left: 15%;
+            padding-top: 9%;
+        }
+
+        .projectTextHeader {
+            color: #2F382D;
+            //position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            //padding-left: 10%;
+        }
+        
+        .projectTextDescription {
+            color: #2F382D;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+            text-align: left;
+        }
+
+        .projectLanguages {
+            padding-top: 5%;
+        }
+    }
+}
+
+/* Styles for screens between 1269px and 1575px */
+@media screen and (min-width: 1269px) and (max-width: 1575px) {
+
+    .blue {
+        background-color: $blue;
+    }
+
+    .yellow {
+        background-color: $yellow;
+    }
+
+    .orange {
+        background-color: $orange;
+    }
+
+    .logoStylesA {
+        color: #F8C93F;
+        font-family: "Bonheur Royale";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .background {
+        width: 100%;
+        height: 100%;
+        background-color: $background;
+    }
+
+    .landingPage {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        background: $background;
+        min-height: 75svh;
+    }
+
+    .landingPageTitle {
+        width: 667px;
+        height: 239px;
+        flex-shrink: 0;
+        position: relative;
+        //margin: auto;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    .portfolioOutline {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        font-family: "Macondo Swash Caps";
+        font-size: 186px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: transparent;
+        position: absolute;
+        top: .03em;
+        right: .06em;
+    }
+    
+    .portfolioHeading {
+        color: $blue;
+        font-family: "Macondo Swash Caps";
+        font-size: 186px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+    }
+
+    .portfolioSubtext {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+        padding-top: 5.5em;
+        padding-right: .2em;
+    }
+
+    .emailBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+    }
+
+    .email {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .phoneBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 1.5em;
+    }
+
+    .phone {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .landingPageSquares {
+        padding-left: 60%;
+        //padding-top: 5.5em;
+        padding-right: .2em;
+        display: inline-block;
+
+        .redSquareOne {
+            width: 363px;
+            height: 407px;
+            transform: rotate(173.498deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwo {
+            width: 363px;
+            height: 407px;
+            transform: rotate(15.675deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-left: 3.5em;
+        }
+
+        .redSquareOneLining {
+            width: 363px;
+            height: 407px;
+            transform: rotate(-16.599deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwoLining {
+            width: 363px;
+            height: 407px;
+            transform: rotate(20.195deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-left: 5em;
+        }
+    }
+
+    #aboutSection {
+        //page-break-before: always;
+        min-height: 65svh;
+
+        .smallBlueCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 44%;
+            margin-left: 40%;
+            position: absolute;
+        }
+        .smallBlueCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 43.8%;
+            margin-left: 39.7%;
+            position: absolute;
+        }
+
+        .mediumBlueCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 24.5%;
+            margin-left: 84.5%;
+            position: absolute;
+        }
+
+        .mediumBlueCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 25%;
+            margin-left: 85%;
+            position: absolute;
+        }
+
+        .largeBlueCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 15%;
+            margin-left: 15%;
+            position: absolute;
+        }
+        
+        .largeBlueCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 14.5%;
+            margin-left: 16%;
+            position: absolute;
+        }
+
+        .smallOrangeCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 10%;
+            margin-left: 30%;
+            position: absolute;
+        }
+        .smallOrangeCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 10.2%;
+            margin-left: 30.2%;
+            position: absolute;
+        }
+
+        .largeOrangeCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 40.3%;
+            margin-left: 64.5%;
+            position: absolute;
+        }
+
+        .largeOrangeCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 40%;
+            margin-left: 65%;
+            position: absolute;
+        }
+
+        .smallYellowCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 35%;
+            margin-left: 25%;
+            position: absolute;
+        }
+        .smallYellowCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 35.2%;
+            margin-left: 25.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 5.5%;
+            margin-left: 60.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 5%;
+            margin-left: 60%;
+            position: absolute;
+        }
+
+        .aboutMeTitleText {
+            color: #2F382D;
+            text-align: center;
+            padding-top: 15%;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+        }
+
+        .aboutMeBodyText {
+            color: #2F382D;
+            text-align: center;
+            padding-left: 25%;
+            padding-right: 25%;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+        }
+    }
+
+    #languagesSection {
+        min-height: 40svh;
+        padding-top: 5%;
+
+        .languagesText {
+            color: #2F382D;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            padding-left: 10%;
+        }
+        
+        .languagesBoxesContainer {
+        //display: flex;
+            //flex-direction: row;
+            
+        }
+
+        .languagesBoxes {
+            //text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            //padding-right: 10%;
+            display: flex;
+            height: 27.5%;
+            gap: 5%;
+        }
+
+        .whiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //z-index: 1;
+        }
+
+        .justWhiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            position: relative;
+            margin-top: -14%;
+            z-index: 1;
+        }
+
+        .blueLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $blue;
+            box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+            //z-index: 0;
+        }
+
+        .orangeLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $orange;
+            box-shadow:  0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+            //z-index: 0;
+        }
+
+        .yellowLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $yellow;
+            box-shadow:  0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+            //z-index: 0;
+        }
+
+        .whiteLanguageBoxeLining {
+            background: transparent;
+            border: 1px solid black;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //
+        }
+
+        .languagesBoxesLining {
+            position: relative;
+            margin-top: -11%;
+            z-index: 2;
+        }
+
+        .languagesLining1 {
+            transform: rotate(-5.599deg);
+        }
+
+        .languagesLining2 {
+            transform: rotate(5.599deg);
+        }
+
+        .seeMoreText {
+            text-align: right;
+            padding-right: 10%;
+            padding-top: 3%;
+            font-family: Changa;
+            color: $textColor;
+            font-weight: 550;
+            font-size: 18px;
+        }
+
+    }
+
+    #projectsSection {
+        min-height: 80svh;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+        .projects {
+            position: relative;
+            width: 100%;
+            display: flex;
+            padding-bottom: 10%;
+        }
+
+        .projectBoxes {
+            background-color: white;
+            flex-shrink: 0;
+            aspect-ratio: 29 / 37;
+            border-radius: 17px;
+            //position: absolute;
+            width: 30%;
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .yellowBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .blueBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+        }
+
+        .yellowColoredBox {
+            background-color: rgba(248, 201,63, 0.5);
+        }
+
+        .blueColoredBox {
+            background-color: rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeColoredBox {
+            background-color: rgba(250, 117, 60, 0.5);
+        }
+
+        .projectColoredBoxes {
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 30%;
+        }
+
+        .projectColoredBoxesLining {
+            color: transparent;
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: -90%;
+            
+            border: 1px solid #000;
+        }
+
+        .rightRotate {
+            transform: rotate(-8.599deg);
+        }
+
+        .leftRotate {
+            transform: rotate(8.599deg);
+        }
+
+        .rightSideBox {
+            transform: translate(230%);
+        }
+
+        .rightSideText {
+            padding-left: 15%;
+        }
+
+        .leftSideText {
+            transform: translate(-65%);
+        }
+
+        .projectTextArea {
+            //background-color: white;
+            padding-left: 15%;
+            
+        }
+
+        .projectTextHeader {
+            color: #2F382D;
+            //position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            //padding-left: 10%;
+        }
+        
+        .projectTextDescription {
+            color: #2F382D;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+            text-align: left;
+        }
+
+        .projectLanguages {
+            padding-top: 5%;
+        }
+    }
+}
+
+/* Styles for screens between 1024px and 12069px */
+@media screen and (min-width: 1024px) and (max-width: 1269px) {
+
+    .blue {
+        background-color: $blue;
+    }
+
+    .yellow {
+        background-color: $yellow;
+    }
+
+    .orange {
+        background-color: $orange;
+    }
+
+    .logoStylesA {
+        color: #F8C93F;
+        font-family: "Bonheur Royale";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .background {
+        width: 100%;
+        height: 100%;
+        background-color: $background;
+    }
+
+    .landingPage {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        background: $background;
+        min-height: 75svh;
+    }
+
+    .landingPageTitle {
+        width: 667px;
+        height: 239px;
+        flex-shrink: 0;
+        position: relative;
+        //margin: auto;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    .portfolioOutline {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        font-family: "Macondo Swash Caps";
+        font-size: 186px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: transparent;
+        position: absolute;
+        top: .03em;
+        right: .06em;
+    }
+    
+    .portfolioHeading {
+        color: $blue;
+        font-family: "Macondo Swash Caps";
+        font-size: 186px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+    }
+
+    .portfolioSubtext {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+        padding-top: 5.5em;
+        padding-right: .2em;
+    }
+
+    .emailBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+    }
+
+    .email {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .phoneBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 1.5em;
+    }
+
+    .phone {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .landingPageSquares {
+        padding-left: 50%;
+        padding-top: 5%;
+        padding-right: .2em;
+        display: inline-block;
+
+        .redSquareOne {
+            width: 363px;
+            height: 407px;
+            transform: rotate(173.498deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwo {
+            width: 363px;
+            height: 407px;
+            transform: rotate(15.675deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-left: 3.5em;
+        }
+
+        .redSquareOneLining {
+            width: 363px;
+            height: 407px;
+            transform: rotate(-16.599deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwoLining {
+            width: 363px;
+            height: 407px;
+            transform: rotate(20.195deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-left: 5em;
+        }
+    }
+
+    #aboutSection {
+        //page-break-before: always;
+        min-height: 65svh;
+
+        .smallBlueCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 44%;
+            margin-left: 40%;
+            position: absolute;
+        }
+        .smallBlueCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 43.8%;
+            margin-left: 39.7%;
+            position: absolute;
+        }
+
+        .mediumBlueCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 24.5%;
+            margin-left: 84.5%;
+            position: absolute;
+        }
+
+        .mediumBlueCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 25%;
+            margin-left: 85%;
+            position: absolute;
+        }
+
+        .largeBlueCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 15%;
+            margin-left: 10%;
+            position: absolute;
+        }
+        
+        .largeBlueCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 14.5%;
+            margin-left: 11%;
+            position: absolute;
+        }
+
+        .smallOrangeCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 10%;
+            margin-left: 30%;
+            position: absolute;
+        }
+        .smallOrangeCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 10.2%;
+            margin-left: 30.2%;
+            position: absolute;
+        }
+
+        .largeOrangeCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 40.3%;
+            margin-left: 64.5%;
+            position: absolute;
+        }
+
+        .largeOrangeCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 40%;
+            margin-left: 65%;
+            position: absolute;
+        }
+
+        .smallYellowCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 35%;
+            margin-left: 20%;
+            position: absolute;
+        }
+        .smallYellowCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 35.2%;
+            margin-left: 20.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 5.5%;
+            margin-left: 60.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 5%;
+            margin-left: 60%;
+            position: absolute;
+        }
+
+        .aboutMeTitleText {
+            color: #2F382D;
+            text-align: center;
+            padding-top: 15%;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+        }
+
+        .aboutMeBodyText {
+            color: #2F382D;
+            text-align: center;
+            padding-left: 25%;
+            padding-right: 25%;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+        }
+    }
+
+    #languagesSection {
+        min-height: 40svh;
+        //padding-top: 5%;
+
+        .languagesText {
+            color: #2F382D;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            padding-left: 10%;
+        }
+        
+        .languagesBoxesContainer {
+        //display: flex;
+            //flex-direction: row;
+            
+        }
+
+        .languagesBoxes {
+            //text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            //padding-right: 10%;
+            display: flex;
+            height: 27.5%;
+            gap: 5%;
+        }
+
+        .whiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //z-index: 1;
+        }
+
+        .justWhiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            position: relative;
+            margin-top: -14%;
+            z-index: 1;
+        }
+
+        .blueLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $blue;
+            box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+            //z-index: 0;
+        }
+
+        .orangeLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $orange;
+            box-shadow:  0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+            //z-index: 0;
+        }
+
+        .yellowLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $yellow;
+            box-shadow:  0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+            //z-index: 0;
+        }
+
+        .whiteLanguageBoxeLining {
+            background: transparent;
+            border: 1px solid black;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //
+        }
+
+        .languagesBoxesLining {
+            position: relative;
+            margin-top: -11%;
+            z-index: 2;
+        }
+
+        .languagesLining1 {
+            transform: rotate(-5.599deg);
+        }
+
+        .languagesLining2 {
+            transform: rotate(5.599deg);
+        }
+
+        .seeMoreText {
+            text-align: right;
+            padding-right: 10%;
+            padding-top: 3%;
+            font-family: Changa;
+            color: $textColor;
+            font-weight: 550;
+            font-size: 18px;
+        }
+
+    }
+
+    #projectsSection {
+        min-height: 80svh;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+        .projects {
+            position: relative;
+            width: 100%;
+            display: flex;
+            padding-bottom: 10%;
+        }
+
+        .projectBoxes {
+            background-color: white;
+            flex-shrink: 0;
+            aspect-ratio: 29 / 37;
+            border-radius: 17px;
+            //position: absolute;
+            width: 30%;
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .yellowBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .blueBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+        }
+
+        .yellowColoredBox {
+            background-color: rgba(248, 201,63, 0.5);
+        }
+
+        .blueColoredBox {
+            background-color: rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeColoredBox {
+            background-color: rgba(250, 117, 60, 0.5);
+        }
+
+        .projectColoredBoxes {
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 30%;
+        }
+
+        .projectColoredBoxesLining {
+            color: transparent;
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: -90%;
+            
+            border: 1px solid #000;
+        }
+
+        .rightRotate {
+            transform: rotate(-8.599deg);
+        }
+
+        .leftRotate {
+            transform: rotate(8.599deg);
+        }
+
+        .rightSideBox {
+            transform: translate(230%);
+        }
+
+        .rightSideText {
+            padding-left: 15%;
+        }
+
+        .leftSideText {
+            transform: translate(-65%);
+        }
+
+        .projectTextArea {
+            //background-color: white;
+            padding-left: 10%;
+            
+        }
+
+        .projectTextHeader {
+            color: #2F382D;
+            //position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            //padding-left: 10%;
+        }
+        
+        .projectTextDescription {
+            color: #2F382D;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+            text-align: left;
+        }
+
+        .projectLanguages {
+            padding-top: 5%;
+        }
+    }
+}
+
+/* Styles for screens between 877px and 1024px */
+@media screen and (min-width: 877px) and (max-width: 1024px) {
+
+    .blue {
+        background-color: $blue;
+    }
+
+    .yellow {
+        background-color: $yellow;
+    }
+
+    .orange {
+        background-color: $orange;
+    }
+
+    .logoStylesA {
+        color: #F8C93F;
+        font-family: "Bonheur Royale";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .background {
+        width: 100%;
+        height: 100%;
+        background-color: $background;
+    }
+
+    .landingPage {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        background: $background;
+        min-height: 75svh;
+    }
+
+    .landingPageTitle {
+        width: 667px;
+        height: 239px;
+        flex-shrink: 0;
+        position: relative;
+        //margin: auto;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    .portfolioOutline {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        font-family: "Macondo Swash Caps";
+        font-size: 156px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: transparent;
+        position: absolute;
+        top: 1.5%;
+        right: 17.75%;
+    }
+    
+    .portfolioHeading {
+        color: $blue;
+        font-family: "Macondo Swash Caps";
+        font-size: 156px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+    }
+
+    .portfolioSubtext {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+        padding-top: 5.5em;
+        padding-right: .2em;
+    }
+
+    .emailBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+    }
+
+    .email {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .phoneBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 1.5em;
+    }
+
+    .phone {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .landingPageSquares {
+        padding-left: 30%;
+        padding-top: 10%;
+        padding-right: .2em;
+        display: inline-block;
+
+        .redSquareOne {
+            width: 339px;
+            height: 381px;
+            transform: rotate(173.498deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwo {
+            width: 339px;
+            height: 381px;
+            transform: rotate(15.675deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-left: 3.5em;
+        }
+
+        .redSquareOneLining {
+            width: 339px;
+            height: 381px;
+            transform: rotate(-16.599deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwoLining {
+            width: 339px;
+            height: 381px;
+            transform: rotate(20.195deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-left: 5em;
+        }
+    }
+
+    #aboutSection {
+        //page-break-before: always;
+        min-height: 60svh;
+        padding-top: 12%;
+
+        .smallBlueCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 52%;
+            margin-left: 40%;
+            position: absolute;
+        }
+        .smallBlueCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 51.5%;
+            margin-left: 39.7%;
+            position: absolute;
+        }
+
+        .mediumBlueCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 24.5%;
+            margin-left: 84.5%;
+            position: absolute;
+        }
+
+        .mediumBlueCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 25%;
+            margin-left: 85%;
+            position: absolute;
+        }
+
+        .largeBlueCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 15%;
+            margin-left: 13%;
+            position: absolute;
+        }
+        
+        .largeBlueCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 14.5%;
+            margin-left: 12%;
+            position: absolute;
+        }
+
+        .smallOrangeCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 10%;
+            margin-left: 30%;
+            position: absolute;
+        }
+        .smallOrangeCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 10.2%;
+            margin-left: 30.2%;
+            position: absolute;
+        }
+
+        .largeOrangeCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 48.3%;
+            margin-left: 64.5%;
+            position: absolute;
+        }
+
+        .largeOrangeCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 48%;
+            margin-left: 65%;
+            position: absolute;
+        }
+
+        .smallYellowCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 35%;
+            margin-left: 15%;
+            position: absolute;
+        }
+        .smallYellowCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 35.2%;
+            margin-left: 15.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 5.5%;
+            margin-left: 60.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 5%;
+            margin-left: 60%;
+            position: absolute;
+        }
+
+        .aboutMeTitleText {
+            color: #2F382D;
+            text-align: center;
+            padding-top: 15%;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+        }
+
+        .aboutMeBodyText {
+            color: #2F382D;
+            text-align: center;
+            padding-left: 25%;
+            padding-right: 25%;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+        }
+    }
+
+    #languagesSection {
+        min-height: 40svh;
+        //padding-top: 5%;
+
+        .languagesText {
+            color: #2F382D;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            padding-left: 10%;
+        }
+        
+        .languagesBoxesContainer {
+        //display: flex;
+            //flex-direction: row;
+            
+        }
+
+        .languagesBoxes {
+            //text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            //padding-right: 10%;
+            display: flex;
+            height: 27.5%;
+            gap: 5%;
+        }
+
+        .whiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //z-index: 1;
+        }
+
+        .justWhiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            position: relative;
+            margin-top: -14%;
+            z-index: 1;
+        }
+
+        .blueLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $blue;
+            box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+            //z-index: 0;
+        }
+
+        .orangeLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $orange;
+            box-shadow:  0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+            //z-index: 0;
+        }
+
+        .yellowLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $yellow;
+            box-shadow:  0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+            //z-index: 0;
+        }
+
+        .whiteLanguageBoxeLining {
+            background: transparent;
+            border: 1px solid black;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //
+        }
+
+        .languagesBoxesLining {
+            position: relative;
+            margin-top: -11%;
+            z-index: 2;
+        }
+
+        .languagesLining1 {
+            transform: rotate(-5.599deg);
+        }
+
+        .languagesLining2 {
+            transform: rotate(5.599deg);
+        }
+
+        .seeMoreText {
+            text-align: right;
+            padding-right: 10%;
+            padding-top: 3%;
+            font-family: Changa;
+            color: $textColor;
+            font-weight: 550;
+            font-size: 18px;
+        }
+
+    }
+
+    #projectsSection {
+        min-height: 80svh;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+        .projects {
+            position: relative;
+            width: 100%;
+            display: flex;
+            padding-bottom: 10%;
+        }
+
+        .projectBoxes {
+            background-color: white;
+            flex-shrink: 0;
+            aspect-ratio: 29 / 37;
+            border-radius: 17px;
+            //position: absolute;
+            width: 30%;
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .yellowBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .blueBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+        }
+
+        .yellowColoredBox {
+            background-color: rgba(248, 201,63, 0.5);
+        }
+
+        .blueColoredBox {
+            background-color: rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeColoredBox {
+            background-color: rgba(250, 117, 60, 0.5);
+        }
+
+        .projectColoredBoxes {
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50%;
+        }
+
+        .projectColoredBoxesLining {
+            color: transparent;
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: -90%;
+            
+            border: 1px solid #000;
+        }
+
+        .rightRotate {
+            transform: rotate(-8.599deg);
+        }
+
+        .leftRotate {
+            transform: rotate(8.599deg);
+        }
+
+        .rightSideBox {
+            transform: translate(230%);
+        }
+
+        .rightSideText {
+            padding-left: 15%;
+        }
+
+        .leftSideText {
+            transform: translate(-65%);
+        }
+
+        .projectTextArea {
+            //background-color: white;
+            padding-left: 10%;
+            
+        }
+
+        .projectTextHeader {
+            color: #2F382D;
+            //position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            //padding-left: 10%;
+        }
+        
+        .projectTextDescription {
+            color: #2F382D;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+            text-align: left;
+        }
+
+        .projectLanguages {
+            padding-top: 5%;
+        }
+    }
+
+    #contactMeSection {
+        min-height: 40svh;
+    }
+
+}
+
+/* Styles for screens between 768px and 877px */
+@media screen and (min-width: 768px) and (max-width: 877px) {
+
+    .blue {
+        background-color: $blue;
+    }
+
+    .yellow {
+        background-color: $yellow;
+    }
+
+    .orange {
+        background-color: $orange;
+    }
+
+    .logoStylesA {
+        color: #F8C93F;
+        font-family: "Bonheur Royale";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .background {
+        width: 100%;
+        height: 100%;
+        background-color: $background;
+    }
+
+    .landingPage {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        background: $background;
+        min-height: 75svh;
+    }
+
+    .landingPageTitle {
+        width: 667px;
+        height: 239px;
+        flex-shrink: 0;
+        position: relative;
+        //margin: auto;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    .portfolioOutline {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        font-family: "Macondo Swash Caps";
+        font-size: 156px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: transparent;
+        position: absolute;
+        top: 1.5%;
+        right: 17.75%;
+    }
+    
+    .portfolioHeading {
+        color: $blue;
+        font-family: "Macondo Swash Caps";
+        font-size: 156px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+    }
+
+    .portfolioSubtext {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+        padding-top: 5.5em;
+        padding-right: .2em;
+    }
+
+    .emailBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+    }
+
+    .email {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .phoneBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 1.5em;
+    }
+
+    .phone {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .landingPageSquares {
+        padding-left: 30%;
+        padding-top: 10%;
+        padding-right: .2em;
+        display: inline-block;
+
+        .redSquareOne {
+            width: 339px;
+            height: 381px;
+            transform: rotate(173.498deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwo {
+            width: 339px;
+            height: 381px;
+            transform: rotate(15.675deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-left: 3.5em;
+        }
+
+        .redSquareOneLining {
+            width: 339px;
+            height: 381px;
+            transform: rotate(-16.599deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwoLining {
+            width: 339px;
+            height: 381px;
+            transform: rotate(20.195deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 54px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-left: 5em;
+        }
+    }
+
+    #aboutSection {
+        //page-break-before: always;
+        min-height: 60svh;
+        padding-top: 12%;
+
+        .smallBlueCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 58%;
+            margin-left: 40%;
+            position: absolute;
+        }
+        .smallBlueCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 58.5%;
+            margin-left: 39.7%;
+            position: absolute;
+        }
+
+        .mediumBlueCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 24.5%;
+            margin-left: 84.5%;
+            position: absolute;
+        }
+
+        .mediumBlueCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 25%;
+            margin-left: 85%;
+            position: absolute;
+        }
+
+        .largeBlueCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 15%;
+            margin-left: 13%;
+            position: absolute;
+        }
+        
+        .largeBlueCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 14.5%;
+            margin-left: 12%;
+            position: absolute;
+        }
+
+        .smallOrangeCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 10%;
+            margin-left: 30%;
+            position: absolute;
+        }
+        .smallOrangeCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 10.2%;
+            margin-left: 30.2%;
+            position: absolute;
+        }
+
+        .largeOrangeCircleLine {
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 55.3%;
+            margin-left: 64.5%;
+            position: absolute;
+        }
+
+        .largeOrangeCircle {
+            width: 100px;
+            height: 100px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 55%;
+            margin-left: 65%;
+            position: absolute;
+        }
+
+        .smallYellowCircle {
+            width: 30px;
+            height: 30px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 35%;
+            margin-left: 15%;
+            position: absolute;
+        }
+        .smallYellowCircleLine {
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 35.2%;
+            margin-left: 15.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 5.5%;
+            margin-left: 60.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 5%;
+            margin-left: 60%;
+            position: absolute;
+        }
+
+        .aboutMeTitleText {
+            color: #2F382D;
+            text-align: center;
+            padding-top: 15%;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+        }
+
+        .aboutMeBodyText {
+            color: #2F382D;
+            text-align: center;
+            padding-left: 25%;
+            padding-right: 25%;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+        }
+    }
+
+    #languagesSection {
+        min-height: 35svh;
+        //padding-top: 5%;
+
+        .languagesText {
+            color: #2F382D;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            padding-left: 10%;
+        }
+        
+        .languagesBoxesContainer {
+        //display: flex;
+            //flex-direction: row;
+            
+        }
+
+        .languagesBoxes {
+            //text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            //padding-right: 10%;
+            display: flex;
+            height: 27.5%;
+            gap: 5%;
+        }
+
+        .whiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //z-index: 1;
+        }
+
+        .justWhiteLanguageBoxes {
+            background: white;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            position: relative;
+            margin-top: -14%;
+            z-index: 1;
+        }
+
+        .blueLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $blue;
+            box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+            //z-index: 0;
+        }
+
+        .orangeLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $orange;
+            box-shadow:  0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+            //z-index: 0;
+        }
+
+        .yellowLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $yellow;
+            box-shadow:  0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+            //z-index: 0;
+        }
+
+        .whiteLanguageBoxeLining {
+            background: transparent;
+            border: 1px solid black;
+            width: 15%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            //
+        }
+
+        .languagesBoxesLining {
+            position: relative;
+            margin-top: -11%;
+            z-index: 2;
+        }
+
+        .languagesLining1 {
+            transform: rotate(-5.599deg);
+        }
+
+        .languagesLining2 {
+            transform: rotate(5.599deg);
+        }
+
+        .seeMoreText {
+            text-align: right;
+            padding-right: 10%;
+            padding-top: 3%;
+            font-family: Changa;
+            color: $textColor;
+            font-weight: 550;
+            font-size: 18px;
+        }
+
+    }
+
+    #projectsSection {
+        min-height: 80svh;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+        .projects {
+            position: relative;
+            width: 100%;
+            display: flex;
+            padding-bottom: 10%;
+        }
+
+        .projectBoxes {
+            background-color: white;
+            flex-shrink: 0;
+            aspect-ratio: 29 / 37;
+            border-radius: 17px;
+            //position: absolute;
+            width: 30%;
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .yellowBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .blueBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+        }
+
+        .yellowColoredBox {
+            background-color: rgba(248, 201,63, 0.5);
+        }
+
+        .blueColoredBox {
+            background-color: rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeColoredBox {
+            background-color: rgba(250, 117, 60, 0.5);
+        }
+
+        .projectColoredBoxes {
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50%;
+        }
+
+        .projectColoredBoxesLining {
+            color: transparent;
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: -90%;
+            
+            border: 1px solid #000;
+        }
+
+        .rightRotate {
+            transform: rotate(-8.599deg);
+        }
+
+        .leftRotate {
+            transform: rotate(8.599deg);
+        }
+
+        .rightSideBox {
+            transform: translate(230%);
+        }
+
+        .rightSideText {
+            padding-left: 15%;
+        }
+
+        .leftSideText {
+            transform: translate(-65%);
+        }
+
+        .projectTextArea {
+            //background-color: white;
+            padding-left: 10%;
+            
+        }
+
+        .projectTextHeader {
+            color: #2F382D;
+            //position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            //padding-left: 10%;
+        }
+        
+        .projectTextDescription {
+            color: #2F382D;
+            position: relative;
+            font-size: 16px;
+            font-family: Changa;
+            color: $textColor;
+            text-align: left;
+        }
+
+        .projectLanguages {
+            padding-top: 5%;
+        }
+    }
+}
+
+/* Styles for screens between 480px and 768px */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    .blue {
+        background-color: $blue;
+    }
+
+    .yellow {
+        background-color: $yellow;
+    }
+
+    .orange {
+        background-color: $orange;
+    }
+
+    .logoStylesA {
+        color: #F8C93F;
+        font-family: "Bonheur Royale";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .background {
+        width: 100%;
+        height: 100%;
+        background-color: $background;
+    }
+
+    .landingPage {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        background: $background;
+        min-height: 60svh;
+    }
+
+    .landingPageTitle {
+        width: 467px;
+        height: 239px;
+        flex-shrink: 0;
+        position: relative;
+        //margin: auto;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    .portfolioOutline {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        font-family: "Macondo Swash Caps";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: transparent;
+        position: absolute;
+        top: 1.5%;
+        right: 27.5%;
+    }
+    
+    .portfolioHeading {
+        color: $blue;
+        font-family: "Macondo Swash Caps";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+    }
+
+    .portfolioSubtext {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+        padding-top: 5.5em;
+        padding-right: .2em;
+    }
+
+    .emailBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        //padding-left: 1.5em;
+    }
+
+    .email {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .phoneBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        //padding-left: 1.5em;
+    }
+
+    .phone {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .landingPageSquares {
+        padding-left: 30%;
+        display: inline-block;
+
+        .redSquareOne {
+            width: 180px;
+            height: 230px;
+            transform: rotate(173.498deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 34px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwo {
+            width: 180px;
+            height: 230px;
+            transform: rotate(15.675deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 34px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-left: 3.5em;
+        }
+
+        .redSquareOneLining {
+            width: 180px;
+            height: 230px;
+            transform: rotate(-16.599deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 34px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwoLining {
+            width: 180px;
+            height: 230px;
+            transform: rotate(20.195deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 34px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-left: 5em;
+        }
+    }
+
+    #aboutSection {
+        //page-break-before: always;
+        min-height: 60svh;
+        //padding-top: 25%;
+
+        .smallBlueCircle {
+            width: 10px;
+            height: 10px;
+            background-color: $blue;
+            border-radius: 50%;
+            @media screen and (max-width: 632px) {
+                margin-top: 100%;
+            }
+            margin-top: 75%;
+            margin-left: 31%;
+            position: absolute;
+        }
+        .smallBlueCircleLine {
+            width: 10px;
+            height: 10px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            @media screen and (max-width: 632px) {
+                margin-top: 100.2%;
+            }
+            margin-top: 75.2%;
+            margin-left: 31.7%;
+            position: absolute;
+        }
+
+        .mediumBlueCircleLine {
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 44.5%;
+            margin-left: 84.5%;
+            position: absolute;
+        }
+
+        .mediumBlueCircle {
+            width: 40px;
+            height: 40px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 45%;
+            margin-left: 85%;
+            position: absolute;
+        }
+
+        .largeBlueCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 18%;
+            margin-left: 8%;
+            position: absolute;
+        }
+        
+        .largeBlueCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 18.5%;
+            margin-left: 7%;
+            position: absolute;
+        }
+
+        .smallOrangeCircle {
+            width: 10px;
+            height: 10px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 10%;
+            margin-left: 40%;
+            position: absolute;
+        }
+        .smallOrangeCircleLine {
+            width: 10px;
+            height: 10px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 10.2%;
+            margin-left: 40.2%;
+            position: absolute;
+        }
+
+        .largeOrangeCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            @media screen and (max-width: 632px) {
+                margin-left: 79.5%;
+            }
+            margin-top: 75.3%;
+            margin-left: 59.5%;
+            position: absolute;
+        }
+
+        .largeOrangeCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $orange;
+            border-radius: 50%;
+            @media screen and (max-width: 632px) {
+                margin-left: 79.5%;
+            }
+            margin-top: 75%;
+            margin-left: 60%;
+            position: absolute;
+        }
+
+        .smallYellowCircle {
+            width: 10px;
+            height: 10px;
+            background-color: $yellow;
+            border-radius: 50%;
+            @media screen and (max-width: 632px) {
+                margin-top: 60%;
+            }
+            margin-top: 45%;
+            margin-left: 10%;
+            position: absolute;
+        }
+        .smallYellowCircleLine {
+            width: 10px;
+            height: 10px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            @media screen and (max-width: 632px) {
+                margin-top: 60.2%;
+            }
+            margin-top:45.2%;
+            margin-left: 10.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircleLine {
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 10.5%;
+            margin-left: 70.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircle {
+            width: 40px;
+            height: 40px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 10%;
+            margin-left: 70%;
+            position: absolute;
+        }
+
+        .aboutMeTitleText {
+            color: #2F382D;
+            text-align: center;
+            padding-top: 15%;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+        }
+
+        .aboutMeBodyText {
+            color: #2F382D;
+            text-align: center;
+            padding-left: 25%;
+            padding-right: 25%;
+            position: relative;
+            font-size: 18px;
+            font-family: Changa;
+            color: $textColor;
+        }
+    }
+
+    #languagesSection {
+        min-height: 40svh;
+        padding-top: 7%;
+
+        .whiteLanguageBoxesContainer {
+            //margin-top: -75.3%;
+            transform: translateY(-100%);
+        }
+
+        .languagesText {
+            color: #2F382D;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            padding-left: 10%;
+        }
+        
+        .languagesBoxesContainer {
+            max-height: 55svh;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        //display: flex;
+            //flex-direction: row;
+            
+        }
+
+        .languagesBoxes {
+            //text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            //padding-right: 10%;
+            display: flex;
+            flex-direction: column;
+            height: 27.5%;
+            row-gap: 3em;
+            align-items: center;
+        }
+
+        .whiteLanguageBoxes {
+            background: white;
+            width: 65%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            aspect-ratio: 200 / 37;
+            //z-index: 1;
+        }
+
+        .justWhiteLanguageBoxes {
+            background: white;
+            width: 65%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            aspect-ratio: 200 / 37;
+            //position: relative;
+            //margin-top: -14%;
+            z-index: 1;
+        }
+
+        .spacingUpdate {
+            margin-bottom: 10%;
+        }
+
+        .blueLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $blue;
+            box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+            //z-index: 0;
+        }
+
+        .orangeLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $orange;
+            box-shadow:  0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+            //z-index: 0;
+        }
+
+        .yellowLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $yellow;
+            box-shadow:  0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+            //z-index: 0;
+        }
+
+        /*@media screen and (max-width: 600px) {
+            .blueLanguageBoxShadow{
+                box-shadow: 0 0 1000px 70px $blue;
+                //z-index: 0;
+            }
+    
+            .orangeLanguageBoxShadow{
+                box-shadow: 0 0 1000px 70px $orange;
+                //z-index: 0;
+            }
+    
+            .yellowLanguageBoxShadow{
+                box-shadow: 0 0 1000px 70px $yellow;
+                //z-index: 0;
+            }
+        }*/
+
+        .whiteLanguageBoxeLining {
+            background: transparent;
+            border: 1px solid black;
+            width: 65%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            aspect-ratio: 200 / 37;
+            //
+        }
+
+        .languagesBoxesLining {
+            position: relative;
+            //margin-top: -75.3%;
+            transform: translateY(-198.5%);
+            z-index: 2;
+        }
+
+        .languagesLining1 {
+            transform: rotate(-5.599deg);
+        }
+
+        .languagesLining2 {
+            transform: rotate(5.599deg);
+        }
+
+        .seeMoreText {
+            text-align: right;
+            padding-right: 10%;
+            padding-top: 3%;
+            font-family: Changa;
+            color: $textColor;
+            font-weight: 550;
+            font-size: 18px;
+        }
+
+    }
+
+    #projectsSection {
+        min-height: 80svh;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+        .projects {
+            position: relative;
+            width: 100%;
+            //display: flex;
+            padding-bottom: 10%;
+        }
+
+        .projectBoxes {
+            background-color: white;
+            flex-shrink: 0;
+            aspect-ratio: 29 / 37;
+            border-radius: 17px;
+            //position: absolute;
+            width: 60%;
+            //box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+            margin: 0 auto;
+        }
+
+        .yellowBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .blueBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+        }
+
+        .yellowColoredBox {
+            background-color: rgba(248, 201,63, 0.5);
+        }
+
+        .blueColoredBox {
+            background-color: rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeColoredBox {
+            background-color: rgba(250, 117, 60, 0.5);
+        }
+
+        .projectColoredBoxes {
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            transform: translateY(030%);
+            //margin-top: 50%;
+        }
+
+        .projectColoredBoxesLining {
+            color: transparent;
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: -65%;
+            transform: translateY(030%);
+            
+            border: 1px solid #000;
+        }
+
+        .rightRotate {
+            transform: rotate(-8.599deg);
+        }
+
+        .leftRotate {
+            transform: rotate(8.599deg);
+        }
+
+        .rightSideText {
+            padding-left: 15%;
+        }
+
+        @media screen and (max-width: 877px) {
+            .leftSideText {
+                padding-left: 15%;
+            }
+            .rightSideBox {
+                //transform: translate(230%);
+            }
+
+        } 
+
+        .projectTextArea {
+            //background-color: white;
+            padding-left: 10%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        .projectTextHeader {
+            color: #2F382D;
+            //position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            //padding-left: 10%;
+        }
+        
+        .projectTextDescription {
+            color: #2F382D;
+            position: relative;
+            font-size: 16px;
+            font-family: Changa;
+            color: $textColor;
+            text-align: left;
+        }
+
+        .projectLanguages {
+            padding-top: 5%;
+        }
+    }
+}
+
+/* Styles for screens less than and 480px */
+@media screen and (max-width: 480px) {
+
+    .blue {
+        background-color: $blue;
+    }
+
+    .yellow {
+        background-color: $yellow;
+    }
+
+    .orange {
+        background-color: $orange;
+    }
+
+    .logoStylesA {
+        color: #F8C93F;
+        font-family: "Bonheur Royale";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .background {
+        width: 100%;
+        height: 100%;
+        background-color: $background;
+    }
+
+    .landingPage {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        background: $background;
+        min-height: 45svh;
+    }
+
+    .landingPageTitle {
+        width: 367px;
+        //height: 239px;
+        flex-shrink: 0;
+        position: relative;
+        //margin: auto;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    .portfolioOutline {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        font-family: "Macondo Swash Caps";
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: transparent;
+        position: absolute;
+        top: 1.5%;
+        right: 35%;
+    }
+    
+    .portfolioHeading {
+        color: $blue;
+        font-family: "Macondo Swash Caps";
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+    }
+
+    .portfolioSubtext {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        padding-left: 1.5em;
+        padding-top: 5.5em;
+        padding-right: .2em;
+    }
+
+    .emailBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+        //padding-left: 1.5em;
+    }
+
+    .email {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .phoneBlock {
+        color: #2F382D;
+        font-family: Changa;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        //padding-left: 1.5em;
+    }
+
+    .phone {
+        color: #2F382D;
+        font-family: Lustria;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: inline-block;
+    }
+
+    .landingPageSquares {
+        @media screen and (min-width: 360px) {
+            padding-left: 20%;
+        }
+        padding-left: 9%;
+        //padding-top: 10%;
+        padding-right: .2em;
+        display: inline-block;
+
+        .redSquareOne {
+            width: 180px;
+            height: 230px;
+            transform: rotate(173.498deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 34px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwo {
+            width: 180px;
+            height: 230px;
+            transform: rotate(15.675deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 34px;
+            background: rgba(249, 117, 60, 0.20);
+            position: absolute;
+            margin-left: 3.5em;
+        }
+
+        .redSquareOneLining {
+            width: 180px;
+            height: 230px;
+            transform: rotate(-16.599deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 34px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-top: 2em;
+        }
+
+        .redSquareTwoLining {
+            width: 180px;
+            height: 230px;
+            transform: rotate(20.195deg);
+            flex-shrink: 0;
+            aspect-ratio: 33/37;
+            border-radius: 34px;
+            border: 1px solid #000;
+            background: transparent;
+            position: absolute;
+            margin-left: 5em;
+        }
+    }
+
+    #aboutSection {
+        //page-break-before: always;
+        min-height: 50svh;
+        //padding-top: 25%;
+
+        .smallBlueCircle {
+            width: 10px;
+            height: 10px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 125%;
+            margin-left: 21%;
+            position: absolute;
+        }
+        .smallBlueCircleLine {
+            width: 10px;
+            height: 10px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 125.5%;
+            margin-left: 21.7%;
+            position: absolute;
+        }
+
+        .mediumBlueCircleLine {
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 54.5%;
+            margin-left: 84.5%;
+            position: absolute;
+        }
+
+        .mediumBlueCircle {
+            width: 40px;
+            height: 40px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 55%;
+            margin-left: 85%;
+            position: absolute;
+        }
+
+        .largeBlueCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $blue;
+            border-radius: 50%;
+            margin-top: 18%;
+            margin-left: 8%;
+            position: absolute;
+        }
+        
+        .largeBlueCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 18.5%;
+            margin-left: 7%;
+            position: absolute;
+        }
+
+        .smallOrangeCircle {
+            width: 10px;
+            height: 10px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 10%;
+            margin-left: 40%;
+            position: absolute;
+        }
+        .smallOrangeCircleLine {
+            width: 10px;
+            height: 10px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 10.2%;
+            margin-left: 40.2%;
+            position: absolute;
+        }
+
+        .largeOrangeCircleLine {
+            width: 70px;
+            height: 70px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 110.3%;
+            margin-left: 79.5%;
+            position: absolute;
+        }
+
+        .largeOrangeCircle {
+            width: 70px;
+            height: 70px;
+            background-color: $orange;
+            border-radius: 50%;
+            margin-top: 110%;
+            margin-left: 80%;
+            position: absolute;
+        }
+
+        .smallYellowCircle {
+            width: 10px;
+            height: 10px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 85%;
+            margin-left: 10%;
+            position: absolute;
+        }
+        .smallYellowCircleLine {
+            width: 10px;
+            height: 10px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top:85.2%;
+            margin-left: 10.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircleLine {
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 10.5%;
+            margin-left: 70.2%;
+            position: absolute;
+        }
+
+        .mediumYellowCircle {
+            width: 40px;
+            height: 40px;
+            background-color: $yellow;
+            border-radius: 50%;
+            margin-top: 10%;
+            margin-left: 70%;
+            position: absolute;
+        }
+
+        .aboutMeTitleText {
+            color: #2F382D;
+            text-align: center;
+            padding-top: 35%;
+            position: relative;
+            font-size: 48px;
+            font-family: Changa;
+            color: $textColor;
+        }
+
+        .aboutMeBodyText {
+            color: #2F382D;
+            text-align: center;
+            padding-left: 25%;
+            padding-right: 25%;
+            position: relative;
+            font-size: 14px;
+            font-family: Changa;
+            color: $textColor;
+        }
+    }
+
+    #languagesSection {
+        min-height: 40svh;
+        padding-top: 7%;
+
+        .whiteLanguageBoxesContainer {
+            //margin-top: -75.3%;
+            transform: translateY(-100%);
+        }
+
+        .languagesText {
+            color: #2F382D;
+            position: relative;
+            font-size: 64px;
+            font-family: Changa;
+            color: $textColor;
+            padding-left: 10%;
+        }
+        
+        .languagesBoxesContainer {
+            max-height: 45svh;
+        //display: flex;
+            //flex-direction: row;
+            
+        }
+
+        .languagesBoxes {
+            //text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            //padding-right: 10%;
+            display: flex;
+            flex-direction: column;
+            height: 27.5%;
+            row-gap: 3em;
+            align-items: center;
+        }
+
+        .whiteLanguageBoxes {
+            background: white;
+            width: 65%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            aspect-ratio: 200 / 37;
+            //z-index: 1;
+        }
+
+        .justWhiteLanguageBoxes {
+            background: white;
+            width: 65%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            aspect-ratio: 200 / 37;
+            //position: relative;
+            //margin-top: -14%;
+            z-index: 1;
+        }
+
+        .spacingUpdate {
+            margin-bottom: 10%;
+        }
+
+        .blueLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $blue;
+            box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+            //z-index: 0;
+        }
+
+        .orangeLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $orange;
+            box-shadow:  0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+            //z-index: 0;
+        }
+
+        .yellowLanguageBoxShadow{
+            //box-shadow: 0 0 1000px 60px $yellow;
+            box-shadow:  0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+            //z-index: 0;
+        }
+
+        /*@media screen and (max-width: 600px) {
+            .blueLanguageBoxShadow{
+                box-shadow: 0 0 1000px 70px $blue;
+                //z-index: 0;
+            }
+    
+            .orangeLanguageBoxShadow{
+                box-shadow: 0 0 1000px 70px $orange;
+                //z-index: 0;
+            }
+    
+            .yellowLanguageBoxShadow{
+                box-shadow: 0 0 1000px 70px $yellow;
+                //z-index: 0;
+            }
+        }*/
+
+        .whiteLanguageBoxeLining {
+            background: transparent;
+            border: 1px solid black;
+            width: 65%;
+            flex-shrink: 0;
+            border-radius: 20px;
+            padding: 7%;
+            aspect-ratio: 200 / 37;
+            //
+        }
+
+        .languagesBoxesLining {
+            position: relative;
+            //margin-top: -75.3%;
+            transform: translateY(-198.5%);
+            z-index: 2;
+        }
+
+        .languagesLining1 {
+            transform: rotate(-5.599deg);
+        }
+
+        .languagesLining2 {
+            transform: rotate(5.599deg);
+        }
+
+        .seeMoreText {
+            text-align: right;
+            padding-right: 10%;
+            padding-top: 3%;
+            font-family: Changa;
+            color: $textColor;
+            font-weight: 550;
+            font-size: 18px;
+        }
+
+    }
+
+    #projectsSection {
+        min-height: 80svh;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+        .projects {
+            position: relative;
+            width: 100%;
+            //display: flex;
+            padding-bottom: 10%;
+        }
+
+        .projectBoxes {
+            background-color: white;
+            flex-shrink: 0;
+            aspect-ratio: 29 / 37;
+            border-radius: 17px;
+            //position: absolute;
+            width: 60%;
+            //box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+            margin: 0 auto;
+        }
+
+        .yellowBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(248, 201,63, 0.5);
+        }
+
+        .blueBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeBoxShadow {
+            box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+        }
+
+        .yellowColoredBox {
+            background-color: rgba(248, 201,63, 0.5);
+        }
+
+        .blueColoredBox {
+            background-color: rgba(153, 211, 187, 0.5);
+        }
+
+        .orangeColoredBox {
+            background-color: rgba(250, 117, 60, 0.5);
+        }
+
+        .projectColoredBoxes {
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            transform: translateY(030%);
+            //margin-top: 50%;
+        }
+
+        .projectColoredBoxesLining {
+            color: transparent;
+            flex-shrink: 0;
+            aspect-ratio: 32 / 37;
+            border-radius: 15px;
+            //position: absolute;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: -65%;
+            transform: translateY(030%);
+            
+            border: 1px solid #000;
+        }
+
+        .rightRotate {
+            transform: rotate(-8.599deg);
+        }
+
+        .leftRotate {
+            transform: rotate(8.599deg);
+        }
+
+        .rightSideText {
+            padding-left: 15%;
+        }
+
+        @media screen and (max-width: 877px) {
+            .leftSideText {
+                padding-left: 15%;
+            }
+            .rightSideBox {
+                //transform: translate(230%);
+            }
+
+        } 
+
+        .projectTextArea {
+            //background-color: white;
+            padding-left: 10%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        .projectTextHeader {
+            color: #2F382D;
+            //position: relative;
+            font-size: 48px;
+            font-family: Changa;
+            color: $textColor;
+            //padding-left: 10%;
+        }
+        
+        .projectTextDescription {
+            color: #2F382D;
+            position: relative;
+            font-size: 14px;
+            font-family: Changa;
+            color: $textColor;
+            text-align: left;
+        }
+
+        .projectLanguages {
+            padding-top: 5%;
+        }
+    }
 }

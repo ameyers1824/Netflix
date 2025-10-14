@@ -1,5 +1,3498 @@
-.hi {
-  color: blueviolet;
+/* Styles for screens greater than 1575px */
+@media screen and (min-width: 1575px) {
+  .blue {
+    background-color: #99D3BB;
+  }
+  .yellow {
+    background-color: #F8C93F;
+  }
+  .orange {
+    background-color: #FA753C;
+  }
+  .logoStylesA {
+    color: #F8C93F;
+    font-family: "Bonheur Royale";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .background {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F7F3;
+  }
+  .landingPage {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: #F8F7F3;
+    min-height: 75svh;
+    display: flex;
+    padding-top: 2%;
+  }
+  .landingPageTitle {
+    width: 667px;
+    height: 239px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .portfolioOutline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Macondo Swash Caps";
+    font-size: 186px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: transparent;
+    position: absolute;
+    top: 0.03em;
+    right: 0.06em;
+  }
+  .portfolioHeading {
+    color: #99D3BB;
+    font-family: "Macondo Swash Caps";
+    font-size: 186px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+  }
+  .portfolioSubtext {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-top: 5.5em;
+    padding-right: 0.2em;
+  }
+  .emailBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+  }
+  .email {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .phoneBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 1.5em;
+  }
+  .phone {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .landingPageSquares {
+    padding-left: 10%;
+    padding-top: 5%;
+    display: inline-block;
+  }
+  .landingPageSquares .redSquareOne {
+    width: 363px;
+    height: 407px;
+    transform: rotate(173.498deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwo {
+    width: 363px;
+    height: 407px;
+    transform: rotate(15.675deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-left: 3.5em;
+  }
+  .landingPageSquares .redSquareOneLining {
+    width: 363px;
+    height: 407px;
+    transform: rotate(-16.599deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwoLining {
+    width: 363px;
+    height: 407px;
+    transform: rotate(20.195deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-left: 5em;
+  }
+  #aboutSection {
+    min-height: 65svh;
+  }
+  #aboutSection .smallBlueCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 37%;
+    margin-left: 40%;
+    position: absolute;
+  }
+  #aboutSection .smallBlueCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 36.8%;
+    margin-left: 39.7%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 24.5%;
+    margin-left: 84.5%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 25%;
+    margin-left: 85%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 15%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 14.5%;
+    margin-left: 16%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10.2%;
+    margin-left: 30.2%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 35.3%;
+    margin-left: 64.5%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 35%;
+    margin-left: 65%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 25%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 30.2%;
+    margin-left: 25.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 5.5%;
+    margin-left: 60.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 60%;
+    position: absolute;
+  }
+  #aboutSection .aboutMeTitleText {
+    color: #2F382D;
+    text-align: center;
+    padding-top: 15%;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #aboutSection .aboutMeBodyText {
+    color: #2F382D;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #languagesSection {
+    min-height: 40svh;
+    padding-top: 9%;
+  }
+  #languagesSection .languagesText {
+    color: #2F382D;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+    padding-left: 10%;
+  }
+  #languagesSection .languagesBoxes {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    height: 27.5%;
+    gap: 5%;
+  }
+  #languagesSection .whiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .justWhiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    position: relative;
+    margin-top: -14%;
+    z-index: 1;
+  }
+  #languagesSection .blueLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+  }
+  #languagesSection .orangeLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+  }
+  #languagesSection .yellowLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+  }
+  #languagesSection .whiteLanguageBoxeLining {
+    background: transparent;
+    border: 1px solid black;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .languagesBoxesLining {
+    position: relative;
+    margin-top: -11%;
+    z-index: 2;
+  }
+  #languagesSection .languagesLining1 {
+    transform: rotate(-5.599deg);
+  }
+  #languagesSection .languagesLining2 {
+    transform: rotate(5.599deg);
+  }
+  #languagesSection .seeMoreText {
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: Changa;
+    color: #597370;
+    font-weight: 550;
+    font-size: 18px;
+  }
+  #projectsSection {
+    min-height: 80svh;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #projectsSection .projects {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10%;
+  }
+  #projectsSection .projectBoxes {
+    background-color: white;
+    flex-shrink: 0;
+    aspect-ratio: 29/37;
+    border-radius: 17px;
+    width: 30%;
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .yellowBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .yellowColoredBox {
+    background-color: rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueColoredBox {
+    background-color: rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeColoredBox {
+    background-color: rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .projectColoredBoxes {
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30%;
+  }
+  #projectsSection .projectColoredBoxesLining {
+    color: transparent;
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -90%;
+    border: 1px solid #000;
+  }
+  #projectsSection .rightRotate {
+    transform: rotate(-8.599deg);
+  }
+  #projectsSection .leftRotate {
+    transform: rotate(8.599deg);
+  }
+  #projectsSection .rightSideBox {
+    transform: translate(230%);
+  }
+  #projectsSection .rightSideText {
+    padding-left: 15%;
+  }
+  #projectsSection .leftSideText {
+    transform: translate(-65%);
+  }
+  #projectsSection .projectTextArea {
+    padding-left: 15%;
+    padding-top: 9%;
+  }
+  #projectsSection .projectTextHeader {
+    color: #2F382D;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #projectsSection .projectTextDescription {
+    color: #2F382D;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+    text-align: left;
+  }
+  #projectsSection .projectLanguages {
+    padding-top: 5%;
+  }
+}
+/* Styles for screens between 1269px and 1575px */
+@media screen and (min-width: 1269px) and (max-width: 1575px) {
+  .blue {
+    background-color: #99D3BB;
+  }
+  .yellow {
+    background-color: #F8C93F;
+  }
+  .orange {
+    background-color: #FA753C;
+  }
+  .logoStylesA {
+    color: #F8C93F;
+    font-family: "Bonheur Royale";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .background {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F7F3;
+  }
+  .landingPage {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: #F8F7F3;
+    min-height: 75svh;
+  }
+  .landingPageTitle {
+    width: 667px;
+    height: 239px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .portfolioOutline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Macondo Swash Caps";
+    font-size: 186px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: transparent;
+    position: absolute;
+    top: 0.03em;
+    right: 0.06em;
+  }
+  .portfolioHeading {
+    color: #99D3BB;
+    font-family: "Macondo Swash Caps";
+    font-size: 186px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+  }
+  .portfolioSubtext {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-top: 5.5em;
+    padding-right: 0.2em;
+  }
+  .emailBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+  }
+  .email {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .phoneBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 1.5em;
+  }
+  .phone {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .landingPageSquares {
+    padding-left: 60%;
+    padding-right: 0.2em;
+    display: inline-block;
+  }
+  .landingPageSquares .redSquareOne {
+    width: 363px;
+    height: 407px;
+    transform: rotate(173.498deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwo {
+    width: 363px;
+    height: 407px;
+    transform: rotate(15.675deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-left: 3.5em;
+  }
+  .landingPageSquares .redSquareOneLining {
+    width: 363px;
+    height: 407px;
+    transform: rotate(-16.599deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwoLining {
+    width: 363px;
+    height: 407px;
+    transform: rotate(20.195deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-left: 5em;
+  }
+  #aboutSection {
+    min-height: 65svh;
+  }
+  #aboutSection .smallBlueCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 44%;
+    margin-left: 40%;
+    position: absolute;
+  }
+  #aboutSection .smallBlueCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 43.8%;
+    margin-left: 39.7%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 24.5%;
+    margin-left: 84.5%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 25%;
+    margin-left: 85%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 15%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 14.5%;
+    margin-left: 16%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10.2%;
+    margin-left: 30.2%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 40.3%;
+    margin-left: 64.5%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 40%;
+    margin-left: 65%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 35%;
+    margin-left: 25%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 35.2%;
+    margin-left: 25.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 5.5%;
+    margin-left: 60.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 60%;
+    position: absolute;
+  }
+  #aboutSection .aboutMeTitleText {
+    color: #2F382D;
+    text-align: center;
+    padding-top: 15%;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #aboutSection .aboutMeBodyText {
+    color: #2F382D;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #languagesSection {
+    min-height: 40svh;
+    padding-top: 5%;
+  }
+  #languagesSection .languagesText {
+    color: #2F382D;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+    padding-left: 10%;
+  }
+  #languagesSection .languagesBoxes {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    height: 27.5%;
+    gap: 5%;
+  }
+  #languagesSection .whiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .justWhiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    position: relative;
+    margin-top: -14%;
+    z-index: 1;
+  }
+  #languagesSection .blueLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+  }
+  #languagesSection .orangeLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+  }
+  #languagesSection .yellowLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+  }
+  #languagesSection .whiteLanguageBoxeLining {
+    background: transparent;
+    border: 1px solid black;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .languagesBoxesLining {
+    position: relative;
+    margin-top: -11%;
+    z-index: 2;
+  }
+  #languagesSection .languagesLining1 {
+    transform: rotate(-5.599deg);
+  }
+  #languagesSection .languagesLining2 {
+    transform: rotate(5.599deg);
+  }
+  #languagesSection .seeMoreText {
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: Changa;
+    color: #597370;
+    font-weight: 550;
+    font-size: 18px;
+  }
+  #projectsSection {
+    min-height: 80svh;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #projectsSection .projects {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10%;
+  }
+  #projectsSection .projectBoxes {
+    background-color: white;
+    flex-shrink: 0;
+    aspect-ratio: 29/37;
+    border-radius: 17px;
+    width: 30%;
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .yellowBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .yellowColoredBox {
+    background-color: rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueColoredBox {
+    background-color: rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeColoredBox {
+    background-color: rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .projectColoredBoxes {
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30%;
+  }
+  #projectsSection .projectColoredBoxesLining {
+    color: transparent;
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -90%;
+    border: 1px solid #000;
+  }
+  #projectsSection .rightRotate {
+    transform: rotate(-8.599deg);
+  }
+  #projectsSection .leftRotate {
+    transform: rotate(8.599deg);
+  }
+  #projectsSection .rightSideBox {
+    transform: translate(230%);
+  }
+  #projectsSection .rightSideText {
+    padding-left: 15%;
+  }
+  #projectsSection .leftSideText {
+    transform: translate(-65%);
+  }
+  #projectsSection .projectTextArea {
+    padding-left: 15%;
+  }
+  #projectsSection .projectTextHeader {
+    color: #2F382D;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #projectsSection .projectTextDescription {
+    color: #2F382D;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+    text-align: left;
+  }
+  #projectsSection .projectLanguages {
+    padding-top: 5%;
+  }
+}
+/* Styles for screens between 1024px and 12069px */
+@media screen and (min-width: 1024px) and (max-width: 1269px) {
+  .blue {
+    background-color: #99D3BB;
+  }
+  .yellow {
+    background-color: #F8C93F;
+  }
+  .orange {
+    background-color: #FA753C;
+  }
+  .logoStylesA {
+    color: #F8C93F;
+    font-family: "Bonheur Royale";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .background {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F7F3;
+  }
+  .landingPage {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: #F8F7F3;
+    min-height: 75svh;
+  }
+  .landingPageTitle {
+    width: 667px;
+    height: 239px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .portfolioOutline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Macondo Swash Caps";
+    font-size: 186px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: transparent;
+    position: absolute;
+    top: 0.03em;
+    right: 0.06em;
+  }
+  .portfolioHeading {
+    color: #99D3BB;
+    font-family: "Macondo Swash Caps";
+    font-size: 186px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+  }
+  .portfolioSubtext {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-top: 5.5em;
+    padding-right: 0.2em;
+  }
+  .emailBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+  }
+  .email {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .phoneBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 1.5em;
+  }
+  .phone {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .landingPageSquares {
+    padding-left: 50%;
+    padding-top: 5%;
+    padding-right: 0.2em;
+    display: inline-block;
+  }
+  .landingPageSquares .redSquareOne {
+    width: 363px;
+    height: 407px;
+    transform: rotate(173.498deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwo {
+    width: 363px;
+    height: 407px;
+    transform: rotate(15.675deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-left: 3.5em;
+  }
+  .landingPageSquares .redSquareOneLining {
+    width: 363px;
+    height: 407px;
+    transform: rotate(-16.599deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwoLining {
+    width: 363px;
+    height: 407px;
+    transform: rotate(20.195deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-left: 5em;
+  }
+  #aboutSection {
+    min-height: 65svh;
+  }
+  #aboutSection .smallBlueCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 44%;
+    margin-left: 40%;
+    position: absolute;
+  }
+  #aboutSection .smallBlueCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 43.8%;
+    margin-left: 39.7%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 24.5%;
+    margin-left: 84.5%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 25%;
+    margin-left: 85%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 10%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 14.5%;
+    margin-left: 11%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10.2%;
+    margin-left: 30.2%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 40.3%;
+    margin-left: 64.5%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 40%;
+    margin-left: 65%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 35%;
+    margin-left: 20%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 35.2%;
+    margin-left: 20.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 5.5%;
+    margin-left: 60.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 60%;
+    position: absolute;
+  }
+  #aboutSection .aboutMeTitleText {
+    color: #2F382D;
+    text-align: center;
+    padding-top: 15%;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #aboutSection .aboutMeBodyText {
+    color: #2F382D;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #languagesSection {
+    min-height: 40svh;
+  }
+  #languagesSection .languagesText {
+    color: #2F382D;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+    padding-left: 10%;
+  }
+  #languagesSection .languagesBoxes {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    height: 27.5%;
+    gap: 5%;
+  }
+  #languagesSection .whiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .justWhiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    position: relative;
+    margin-top: -14%;
+    z-index: 1;
+  }
+  #languagesSection .blueLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+  }
+  #languagesSection .orangeLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+  }
+  #languagesSection .yellowLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+  }
+  #languagesSection .whiteLanguageBoxeLining {
+    background: transparent;
+    border: 1px solid black;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .languagesBoxesLining {
+    position: relative;
+    margin-top: -11%;
+    z-index: 2;
+  }
+  #languagesSection .languagesLining1 {
+    transform: rotate(-5.599deg);
+  }
+  #languagesSection .languagesLining2 {
+    transform: rotate(5.599deg);
+  }
+  #languagesSection .seeMoreText {
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: Changa;
+    color: #597370;
+    font-weight: 550;
+    font-size: 18px;
+  }
+  #projectsSection {
+    min-height: 80svh;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #projectsSection .projects {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10%;
+  }
+  #projectsSection .projectBoxes {
+    background-color: white;
+    flex-shrink: 0;
+    aspect-ratio: 29/37;
+    border-radius: 17px;
+    width: 30%;
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .yellowBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .yellowColoredBox {
+    background-color: rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueColoredBox {
+    background-color: rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeColoredBox {
+    background-color: rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .projectColoredBoxes {
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30%;
+  }
+  #projectsSection .projectColoredBoxesLining {
+    color: transparent;
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -90%;
+    border: 1px solid #000;
+  }
+  #projectsSection .rightRotate {
+    transform: rotate(-8.599deg);
+  }
+  #projectsSection .leftRotate {
+    transform: rotate(8.599deg);
+  }
+  #projectsSection .rightSideBox {
+    transform: translate(230%);
+  }
+  #projectsSection .rightSideText {
+    padding-left: 15%;
+  }
+  #projectsSection .leftSideText {
+    transform: translate(-65%);
+  }
+  #projectsSection .projectTextArea {
+    padding-left: 10%;
+  }
+  #projectsSection .projectTextHeader {
+    color: #2F382D;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #projectsSection .projectTextDescription {
+    color: #2F382D;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+    text-align: left;
+  }
+  #projectsSection .projectLanguages {
+    padding-top: 5%;
+  }
+}
+/* Styles for screens between 877px and 1024px */
+@media screen and (min-width: 877px) and (max-width: 1024px) {
+  .blue {
+    background-color: #99D3BB;
+  }
+  .yellow {
+    background-color: #F8C93F;
+  }
+  .orange {
+    background-color: #FA753C;
+  }
+  .logoStylesA {
+    color: #F8C93F;
+    font-family: "Bonheur Royale";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .background {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F7F3;
+  }
+  .landingPage {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: #F8F7F3;
+    min-height: 75svh;
+  }
+  .landingPageTitle {
+    width: 667px;
+    height: 239px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .portfolioOutline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Macondo Swash Caps";
+    font-size: 156px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: transparent;
+    position: absolute;
+    top: 1.5%;
+    right: 17.75%;
+  }
+  .portfolioHeading {
+    color: #99D3BB;
+    font-family: "Macondo Swash Caps";
+    font-size: 156px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+  }
+  .portfolioSubtext {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-top: 5.5em;
+    padding-right: 0.2em;
+  }
+  .emailBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+  }
+  .email {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .phoneBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 1.5em;
+  }
+  .phone {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .landingPageSquares {
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-right: 0.2em;
+    display: inline-block;
+  }
+  .landingPageSquares .redSquareOne {
+    width: 339px;
+    height: 381px;
+    transform: rotate(173.498deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwo {
+    width: 339px;
+    height: 381px;
+    transform: rotate(15.675deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-left: 3.5em;
+  }
+  .landingPageSquares .redSquareOneLining {
+    width: 339px;
+    height: 381px;
+    transform: rotate(-16.599deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwoLining {
+    width: 339px;
+    height: 381px;
+    transform: rotate(20.195deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-left: 5em;
+  }
+  #aboutSection {
+    min-height: 60svh;
+    padding-top: 12%;
+  }
+  #aboutSection .smallBlueCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 52%;
+    margin-left: 40%;
+    position: absolute;
+  }
+  #aboutSection .smallBlueCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 51.5%;
+    margin-left: 39.7%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 24.5%;
+    margin-left: 84.5%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 25%;
+    margin-left: 85%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 13%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 14.5%;
+    margin-left: 12%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10.2%;
+    margin-left: 30.2%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 48.3%;
+    margin-left: 64.5%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 48%;
+    margin-left: 65%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 35%;
+    margin-left: 15%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 35.2%;
+    margin-left: 15.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 5.5%;
+    margin-left: 60.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 60%;
+    position: absolute;
+  }
+  #aboutSection .aboutMeTitleText {
+    color: #2F382D;
+    text-align: center;
+    padding-top: 15%;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #aboutSection .aboutMeBodyText {
+    color: #2F382D;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #languagesSection {
+    min-height: 40svh;
+  }
+  #languagesSection .languagesText {
+    color: #2F382D;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+    padding-left: 10%;
+  }
+  #languagesSection .languagesBoxes {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    height: 27.5%;
+    gap: 5%;
+  }
+  #languagesSection .whiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .justWhiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    position: relative;
+    margin-top: -14%;
+    z-index: 1;
+  }
+  #languagesSection .blueLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+  }
+  #languagesSection .orangeLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+  }
+  #languagesSection .yellowLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+  }
+  #languagesSection .whiteLanguageBoxeLining {
+    background: transparent;
+    border: 1px solid black;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .languagesBoxesLining {
+    position: relative;
+    margin-top: -11%;
+    z-index: 2;
+  }
+  #languagesSection .languagesLining1 {
+    transform: rotate(-5.599deg);
+  }
+  #languagesSection .languagesLining2 {
+    transform: rotate(5.599deg);
+  }
+  #languagesSection .seeMoreText {
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: Changa;
+    color: #597370;
+    font-weight: 550;
+    font-size: 18px;
+  }
+  #projectsSection {
+    min-height: 80svh;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #projectsSection .projects {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10%;
+  }
+  #projectsSection .projectBoxes {
+    background-color: white;
+    flex-shrink: 0;
+    aspect-ratio: 29/37;
+    border-radius: 17px;
+    width: 30%;
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .yellowBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .yellowColoredBox {
+    background-color: rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueColoredBox {
+    background-color: rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeColoredBox {
+    background-color: rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .projectColoredBoxes {
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50%;
+  }
+  #projectsSection .projectColoredBoxesLining {
+    color: transparent;
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -90%;
+    border: 1px solid #000;
+  }
+  #projectsSection .rightRotate {
+    transform: rotate(-8.599deg);
+  }
+  #projectsSection .leftRotate {
+    transform: rotate(8.599deg);
+  }
+  #projectsSection .rightSideBox {
+    transform: translate(230%);
+  }
+  #projectsSection .rightSideText {
+    padding-left: 15%;
+  }
+  #projectsSection .leftSideText {
+    transform: translate(-65%);
+  }
+  #projectsSection .projectTextArea {
+    padding-left: 10%;
+  }
+  #projectsSection .projectTextHeader {
+    color: #2F382D;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #projectsSection .projectTextDescription {
+    color: #2F382D;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+    text-align: left;
+  }
+  #projectsSection .projectLanguages {
+    padding-top: 5%;
+  }
+  #contactMeSection {
+    min-height: 40svh;
+  }
+}
+/* Styles for screens between 768px and 877px */
+@media screen and (min-width: 768px) and (max-width: 877px) {
+  .blue {
+    background-color: #99D3BB;
+  }
+  .yellow {
+    background-color: #F8C93F;
+  }
+  .orange {
+    background-color: #FA753C;
+  }
+  .logoStylesA {
+    color: #F8C93F;
+    font-family: "Bonheur Royale";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .background {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F7F3;
+  }
+  .landingPage {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: #F8F7F3;
+    min-height: 75svh;
+  }
+  .landingPageTitle {
+    width: 667px;
+    height: 239px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .portfolioOutline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Macondo Swash Caps";
+    font-size: 156px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: transparent;
+    position: absolute;
+    top: 1.5%;
+    right: 17.75%;
+  }
+  .portfolioHeading {
+    color: #99D3BB;
+    font-family: "Macondo Swash Caps";
+    font-size: 156px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+  }
+  .portfolioSubtext {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-top: 5.5em;
+    padding-right: 0.2em;
+  }
+  .emailBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+  }
+  .email {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .phoneBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 1.5em;
+  }
+  .phone {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .landingPageSquares {
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-right: 0.2em;
+    display: inline-block;
+  }
+  .landingPageSquares .redSquareOne {
+    width: 339px;
+    height: 381px;
+    transform: rotate(173.498deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwo {
+    width: 339px;
+    height: 381px;
+    transform: rotate(15.675deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-left: 3.5em;
+  }
+  .landingPageSquares .redSquareOneLining {
+    width: 339px;
+    height: 381px;
+    transform: rotate(-16.599deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwoLining {
+    width: 339px;
+    height: 381px;
+    transform: rotate(20.195deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-left: 5em;
+  }
+  #aboutSection {
+    min-height: 60svh;
+    padding-top: 12%;
+  }
+  #aboutSection .smallBlueCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 58%;
+    margin-left: 40%;
+    position: absolute;
+  }
+  #aboutSection .smallBlueCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 58.5%;
+    margin-left: 39.7%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 24.5%;
+    margin-left: 84.5%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 25%;
+    margin-left: 85%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 13%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 14.5%;
+    margin-left: 12%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10.2%;
+    margin-left: 30.2%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircleLine {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 55.3%;
+    margin-left: 64.5%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 55%;
+    margin-left: 65%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 35%;
+    margin-left: 15%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircleLine {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 35.2%;
+    margin-left: 15.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 5.5%;
+    margin-left: 60.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 60%;
+    position: absolute;
+  }
+  #aboutSection .aboutMeTitleText {
+    color: #2F382D;
+    text-align: center;
+    padding-top: 15%;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #aboutSection .aboutMeBodyText {
+    color: #2F382D;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #languagesSection {
+    min-height: 35svh;
+  }
+  #languagesSection .languagesText {
+    color: #2F382D;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+    padding-left: 10%;
+  }
+  #languagesSection .languagesBoxes {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    height: 27.5%;
+    gap: 5%;
+  }
+  #languagesSection .whiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .justWhiteLanguageBoxes {
+    background: white;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    position: relative;
+    margin-top: -14%;
+    z-index: 1;
+  }
+  #languagesSection .blueLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+  }
+  #languagesSection .orangeLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+  }
+  #languagesSection .yellowLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+  }
+  #languagesSection .whiteLanguageBoxeLining {
+    background: transparent;
+    border: 1px solid black;
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+  }
+  #languagesSection .languagesBoxesLining {
+    position: relative;
+    margin-top: -11%;
+    z-index: 2;
+  }
+  #languagesSection .languagesLining1 {
+    transform: rotate(-5.599deg);
+  }
+  #languagesSection .languagesLining2 {
+    transform: rotate(5.599deg);
+  }
+  #languagesSection .seeMoreText {
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: Changa;
+    color: #597370;
+    font-weight: 550;
+    font-size: 18px;
+  }
+  #projectsSection {
+    min-height: 80svh;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #projectsSection .projects {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10%;
+  }
+  #projectsSection .projectBoxes {
+    background-color: white;
+    flex-shrink: 0;
+    aspect-ratio: 29/37;
+    border-radius: 17px;
+    width: 30%;
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .yellowBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .yellowColoredBox {
+    background-color: rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueColoredBox {
+    background-color: rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeColoredBox {
+    background-color: rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .projectColoredBoxes {
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50%;
+  }
+  #projectsSection .projectColoredBoxesLining {
+    color: transparent;
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -90%;
+    border: 1px solid #000;
+  }
+  #projectsSection .rightRotate {
+    transform: rotate(-8.599deg);
+  }
+  #projectsSection .leftRotate {
+    transform: rotate(8.599deg);
+  }
+  #projectsSection .rightSideBox {
+    transform: translate(230%);
+  }
+  #projectsSection .rightSideText {
+    padding-left: 15%;
+  }
+  #projectsSection .leftSideText {
+    transform: translate(-65%);
+  }
+  #projectsSection .projectTextArea {
+    padding-left: 10%;
+  }
+  #projectsSection .projectTextHeader {
+    color: #2F382D;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #projectsSection .projectTextDescription {
+    color: #2F382D;
+    position: relative;
+    font-size: 16px;
+    font-family: Changa;
+    color: #597370;
+    text-align: left;
+  }
+  #projectsSection .projectLanguages {
+    padding-top: 5%;
+  }
+}
+/* Styles for screens between 480px and 768px */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .blue {
+    background-color: #99D3BB;
+  }
+  .yellow {
+    background-color: #F8C93F;
+  }
+  .orange {
+    background-color: #FA753C;
+  }
+  .logoStylesA {
+    color: #F8C93F;
+    font-family: "Bonheur Royale";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .background {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F7F3;
+  }
+  .landingPage {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: #F8F7F3;
+    min-height: 60svh;
+  }
+  .landingPageTitle {
+    width: 467px;
+    height: 239px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .portfolioOutline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Macondo Swash Caps";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: transparent;
+    position: absolute;
+    top: 1.5%;
+    right: 27.5%;
+  }
+  .portfolioHeading {
+    color: #99D3BB;
+    font-family: "Macondo Swash Caps";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+  }
+  .portfolioSubtext {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-top: 5.5em;
+    padding-right: 0.2em;
+  }
+  .emailBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .email {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .phoneBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .phone {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .landingPageSquares {
+    padding-left: 30%;
+    display: inline-block;
+  }
+  .landingPageSquares .redSquareOne {
+    width: 180px;
+    height: 230px;
+    transform: rotate(173.498deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 34px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwo {
+    width: 180px;
+    height: 230px;
+    transform: rotate(15.675deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 34px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-left: 3.5em;
+  }
+  .landingPageSquares .redSquareOneLining {
+    width: 180px;
+    height: 230px;
+    transform: rotate(-16.599deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 34px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwoLining {
+    width: 180px;
+    height: 230px;
+    transform: rotate(20.195deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 34px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-left: 5em;
+  }
+  #aboutSection {
+    min-height: 60svh;
+  }
+  #aboutSection .smallBlueCircle {
+    width: 10px;
+    height: 10px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 75%;
+    margin-left: 31%;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) and (max-width: 632px) {
+  #aboutSection .smallBlueCircle {
+    margin-top: 100%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #aboutSection .smallBlueCircleLine {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 75.2%;
+    margin-left: 31.7%;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) and (max-width: 632px) {
+  #aboutSection .smallBlueCircleLine {
+    margin-top: 100.2%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #aboutSection .mediumBlueCircleLine {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 44.5%;
+    margin-left: 84.5%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircle {
+    width: 40px;
+    height: 40px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 45%;
+    margin-left: 85%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 18%;
+    margin-left: 8%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 18.5%;
+    margin-left: 7%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircle {
+    width: 10px;
+    height: 10px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 40%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircleLine {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10.2%;
+    margin-left: 40.2%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 75.3%;
+    margin-left: 59.5%;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) and (max-width: 632px) {
+  #aboutSection .largeOrangeCircleLine {
+    margin-left: 79.5%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #aboutSection .largeOrangeCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 75%;
+    margin-left: 60%;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) and (max-width: 632px) {
+  #aboutSection .largeOrangeCircle {
+    margin-left: 79.5%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #aboutSection .smallYellowCircle {
+    width: 10px;
+    height: 10px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 45%;
+    margin-left: 10%;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) and (max-width: 632px) {
+  #aboutSection .smallYellowCircle {
+    margin-top: 60%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #aboutSection .smallYellowCircleLine {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 45.2%;
+    margin-left: 10.2%;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) and (max-width: 632px) {
+  #aboutSection .smallYellowCircleLine {
+    margin-top: 60.2%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #aboutSection .mediumYellowCircleLine {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10.5%;
+    margin-left: 70.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircle {
+    width: 40px;
+    height: 40px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 70%;
+    position: absolute;
+  }
+  #aboutSection .aboutMeTitleText {
+    color: #2F382D;
+    text-align: center;
+    padding-top: 15%;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #aboutSection .aboutMeBodyText {
+    color: #2F382D;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: relative;
+    font-size: 18px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #languagesSection {
+    min-height: 40svh;
+    padding-top: 7%;
+    /*@media screen and (max-width: 600px) {
+        .blueLanguageBoxShadow{
+            box-shadow: 0 0 1000px 70px $blue;
+            //z-index: 0;
+        }
+
+        .orangeLanguageBoxShadow{
+            box-shadow: 0 0 1000px 70px $orange;
+            //z-index: 0;
+        }
+
+        .yellowLanguageBoxShadow{
+            box-shadow: 0 0 1000px 70px $yellow;
+            //z-index: 0;
+        }
+    }*/
+  }
+  #languagesSection .whiteLanguageBoxesContainer {
+    transform: translateY(-100%);
+  }
+  #languagesSection .languagesText {
+    color: #2F382D;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+    padding-left: 10%;
+  }
+  #languagesSection .languagesBoxesContainer {
+    max-height: 55svh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #languagesSection .languagesBoxes {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 27.5%;
+    row-gap: 3em;
+    align-items: center;
+  }
+  #languagesSection .whiteLanguageBoxes {
+    background: white;
+    width: 65%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    aspect-ratio: 200/37;
+  }
+  #languagesSection .justWhiteLanguageBoxes {
+    background: white;
+    width: 65%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    aspect-ratio: 200/37;
+    z-index: 1;
+  }
+  #languagesSection .spacingUpdate {
+    margin-bottom: 10%;
+  }
+  #languagesSection .blueLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+  }
+  #languagesSection .orangeLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+  }
+  #languagesSection .yellowLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+  }
+  #languagesSection .whiteLanguageBoxeLining {
+    background: transparent;
+    border: 1px solid black;
+    width: 65%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    aspect-ratio: 200/37;
+  }
+  #languagesSection .languagesBoxesLining {
+    position: relative;
+    transform: translateY(-198.5%);
+    z-index: 2;
+  }
+  #languagesSection .languagesLining1 {
+    transform: rotate(-5.599deg);
+  }
+  #languagesSection .languagesLining2 {
+    transform: rotate(5.599deg);
+  }
+  #languagesSection .seeMoreText {
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: Changa;
+    color: #597370;
+    font-weight: 550;
+    font-size: 18px;
+  }
+  #projectsSection {
+    min-height: 80svh;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #projectsSection .projects {
+    position: relative;
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  #projectsSection .projectBoxes {
+    background-color: white;
+    flex-shrink: 0;
+    aspect-ratio: 29/37;
+    border-radius: 17px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  #projectsSection .yellowBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .yellowColoredBox {
+    background-color: rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueColoredBox {
+    background-color: rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeColoredBox {
+    background-color: rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .projectColoredBoxes {
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    transform: translateY(30%);
+  }
+  #projectsSection .projectColoredBoxesLining {
+    color: transparent;
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -65%;
+    transform: translateY(30%);
+    border: 1px solid #000;
+  }
+  #projectsSection .rightRotate {
+    transform: rotate(-8.599deg);
+  }
+  #projectsSection .leftRotate {
+    transform: rotate(8.599deg);
+  }
+  #projectsSection .rightSideText {
+    padding-left: 15%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) and (max-width: 877px) {
+  #projectsSection .leftSideText {
+    padding-left: 15%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #projectsSection .projectTextArea {
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #projectsSection .projectTextHeader {
+    color: #2F382D;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #projectsSection .projectTextDescription {
+    color: #2F382D;
+    position: relative;
+    font-size: 16px;
+    font-family: Changa;
+    color: #597370;
+    text-align: left;
+  }
+  #projectsSection .projectLanguages {
+    padding-top: 5%;
+  }
+}
+/* Styles for screens less than and 480px */
+@media screen and (max-width: 480px) {
+  .blue {
+    background-color: #99D3BB;
+  }
+  .yellow {
+    background-color: #F8C93F;
+  }
+  .orange {
+    background-color: #FA753C;
+  }
+  .logoStylesA {
+    color: #F8C93F;
+    font-family: "Bonheur Royale";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .background {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F7F3;
+  }
+  .landingPage {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: #F8F7F3;
+    min-height: 45svh;
+  }
+  .landingPageTitle {
+    width: 367px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .portfolioOutline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Macondo Swash Caps";
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: transparent;
+    position: absolute;
+    top: 1.5%;
+    right: 35%;
+  }
+  .portfolioHeading {
+    color: #99D3BB;
+    font-family: "Macondo Swash Caps";
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+  }
+  .portfolioSubtext {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-top: 5.5em;
+    padding-right: 0.2em;
+  }
+  .emailBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .email {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .phoneBlock {
+    color: #2F382D;
+    font-family: Changa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .phone {
+    color: #2F382D;
+    font-family: Lustria;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+  }
+  .landingPageSquares {
+    padding-left: 9%;
+    padding-right: 0.2em;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 360px) {
+  .landingPageSquares {
+    padding-left: 20%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .landingPageSquares .redSquareOne {
+    width: 180px;
+    height: 230px;
+    transform: rotate(173.498deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 34px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwo {
+    width: 180px;
+    height: 230px;
+    transform: rotate(15.675deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 34px;
+    background: rgba(249, 117, 60, 0.2);
+    position: absolute;
+    margin-left: 3.5em;
+  }
+  .landingPageSquares .redSquareOneLining {
+    width: 180px;
+    height: 230px;
+    transform: rotate(-16.599deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 34px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-top: 2em;
+  }
+  .landingPageSquares .redSquareTwoLining {
+    width: 180px;
+    height: 230px;
+    transform: rotate(20.195deg);
+    flex-shrink: 0;
+    aspect-ratio: 33/37;
+    border-radius: 34px;
+    border: 1px solid #000;
+    background: transparent;
+    position: absolute;
+    margin-left: 5em;
+  }
+  #aboutSection {
+    min-height: 50svh;
+  }
+  #aboutSection .smallBlueCircle {
+    width: 10px;
+    height: 10px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 125%;
+    margin-left: 21%;
+    position: absolute;
+  }
+  #aboutSection .smallBlueCircleLine {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 125.5%;
+    margin-left: 21.7%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircleLine {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 54.5%;
+    margin-left: 84.5%;
+    position: absolute;
+  }
+  #aboutSection .mediumBlueCircle {
+    width: 40px;
+    height: 40px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 55%;
+    margin-left: 85%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #99D3BB;
+    border-radius: 50%;
+    margin-top: 18%;
+    margin-left: 8%;
+    position: absolute;
+  }
+  #aboutSection .largeBlueCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 18.5%;
+    margin-left: 7%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircle {
+    width: 10px;
+    height: 10px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 40%;
+    position: absolute;
+  }
+  #aboutSection .smallOrangeCircleLine {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10.2%;
+    margin-left: 40.2%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircleLine {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 110.3%;
+    margin-left: 79.5%;
+    position: absolute;
+  }
+  #aboutSection .largeOrangeCircle {
+    width: 70px;
+    height: 70px;
+    background-color: #FA753C;
+    border-radius: 50%;
+    margin-top: 110%;
+    margin-left: 80%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircle {
+    width: 10px;
+    height: 10px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 85%;
+    margin-left: 10%;
+    position: absolute;
+  }
+  #aboutSection .smallYellowCircleLine {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 85.2%;
+    margin-left: 10.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircleLine {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 10.5%;
+    margin-left: 70.2%;
+    position: absolute;
+  }
+  #aboutSection .mediumYellowCircle {
+    width: 40px;
+    height: 40px;
+    background-color: #F8C93F;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 70%;
+    position: absolute;
+  }
+  #aboutSection .aboutMeTitleText {
+    color: #2F382D;
+    text-align: center;
+    padding-top: 35%;
+    position: relative;
+    font-size: 48px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #aboutSection .aboutMeBodyText {
+    color: #2F382D;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: relative;
+    font-size: 14px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #languagesSection {
+    min-height: 40svh;
+    padding-top: 7%;
+    /*@media screen and (max-width: 600px) {
+        .blueLanguageBoxShadow{
+            box-shadow: 0 0 1000px 70px $blue;
+            //z-index: 0;
+        }
+
+        .orangeLanguageBoxShadow{
+            box-shadow: 0 0 1000px 70px $orange;
+            //z-index: 0;
+        }
+
+        .yellowLanguageBoxShadow{
+            box-shadow: 0 0 1000px 70px $yellow;
+            //z-index: 0;
+        }
+    }*/
+  }
+  #languagesSection .whiteLanguageBoxesContainer {
+    transform: translateY(-100%);
+  }
+  #languagesSection .languagesText {
+    color: #2F382D;
+    position: relative;
+    font-size: 64px;
+    font-family: Changa;
+    color: #597370;
+    padding-left: 10%;
+  }
+  #languagesSection .languagesBoxesContainer {
+    max-height: 45svh;
+  }
+  #languagesSection .languagesBoxes {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 27.5%;
+    row-gap: 3em;
+    align-items: center;
+  }
+  #languagesSection .whiteLanguageBoxes {
+    background: white;
+    width: 65%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    aspect-ratio: 200/37;
+  }
+  #languagesSection .justWhiteLanguageBoxes {
+    background: white;
+    width: 65%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    aspect-ratio: 200/37;
+    z-index: 1;
+  }
+  #languagesSection .spacingUpdate {
+    margin-bottom: 10%;
+  }
+  #languagesSection .blueLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(153, 211, 187, 0.3);
+  }
+  #languagesSection .orangeLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 0px rgba(250, 117, 60, 0.3);
+  }
+  #languagesSection .yellowLanguageBoxShadow {
+    box-shadow: 0px 0px 100px 1px rgba(248, 201, 63, 0.3);
+  }
+  #languagesSection .whiteLanguageBoxeLining {
+    background: transparent;
+    border: 1px solid black;
+    width: 65%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 7%;
+    aspect-ratio: 200/37;
+  }
+  #languagesSection .languagesBoxesLining {
+    position: relative;
+    transform: translateY(-198.5%);
+    z-index: 2;
+  }
+  #languagesSection .languagesLining1 {
+    transform: rotate(-5.599deg);
+  }
+  #languagesSection .languagesLining2 {
+    transform: rotate(5.599deg);
+  }
+  #languagesSection .seeMoreText {
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: Changa;
+    color: #597370;
+    font-weight: 550;
+    font-size: 18px;
+  }
+  #projectsSection {
+    min-height: 80svh;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #projectsSection .projects {
+    position: relative;
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  #projectsSection .projectBoxes {
+    background-color: white;
+    flex-shrink: 0;
+    aspect-ratio: 29/37;
+    border-radius: 17px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  #projectsSection .yellowBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeBoxShadow {
+    box-shadow: 0 0px 100px 1px rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .yellowColoredBox {
+    background-color: rgba(248, 201, 63, 0.5);
+  }
+  #projectsSection .blueColoredBox {
+    background-color: rgba(153, 211, 187, 0.5);
+  }
+  #projectsSection .orangeColoredBox {
+    background-color: rgba(250, 117, 60, 0.5);
+  }
+  #projectsSection .projectColoredBoxes {
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    transform: translateY(30%);
+  }
+  #projectsSection .projectColoredBoxesLining {
+    color: transparent;
+    flex-shrink: 0;
+    aspect-ratio: 32/37;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -65%;
+    transform: translateY(30%);
+    border: 1px solid #000;
+  }
+  #projectsSection .rightRotate {
+    transform: rotate(-8.599deg);
+  }
+  #projectsSection .leftRotate {
+    transform: rotate(8.599deg);
+  }
+  #projectsSection .rightSideText {
+    padding-left: 15%;
+  }
+}
+@media screen and (max-width: 480px) and (max-width: 877px) {
+  #projectsSection .leftSideText {
+    padding-left: 15%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #projectsSection .projectTextArea {
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #projectsSection .projectTextHeader {
+    color: #2F382D;
+    font-size: 48px;
+    font-family: Changa;
+    color: #597370;
+  }
+  #projectsSection .projectTextDescription {
+    color: #2F382D;
+    position: relative;
+    font-size: 14px;
+    font-family: Changa;
+    color: #597370;
+    text-align: left;
+  }
+  #projectsSection .projectLanguages {
+    padding-top: 5%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
